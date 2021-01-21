@@ -6,6 +6,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for user_face_info
 -- ----------------------------
+
+
 DROP TABLE IF EXISTS `user_face_info`;
 CREATE TABLE `user_face_info` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
