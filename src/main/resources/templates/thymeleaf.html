@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xml:th="http://www.thymeleaf.org" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf</title>
+</head>
+<body>
+<p th:text="|用户名:+${url}|"></p>
+<p th:utext="'html：'+${html}"></p>
+<p th:text="${requestMessage}"></p>
+<p th:text="${session.sessionMessage}"></p>
+<p th:text="${application.applicationMessage}"></p>
+<p th:text="1+2"></p>
+<!--<div><img th:src="@{images/shibie.jpg}"/></div>
+<div th:object="${model}">
+<p th:text="'颜色：'+*{color}"></p>
+
+<p th:if="*{weight ge 18}">
+good
+</p>
+    <p th:unless="*{weight ge 18}">
+        good
+    </p>
+    <p th:switch="*{weight}">
+        <span th:case="16">这是16</span>
+        <span th:case="18">这是18</span>
+        <span th:case="19">这是19</span>
+        <span th:case="*">这是相当于defult</span>
+    </p>
+</div>-->
+<!--<div th:include="@{footer}::companyInfo" th:width="title=魔兽世界"></div>-->
+</body>
+</html>

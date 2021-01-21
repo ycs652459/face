@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xml:th="http://www.thymeleaf.org" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf</title>
+</head>
+<body>
+<form  th:action="@{multipartFile}" method="post" enctype="multipart/form-data">
+    用户邮箱：<input type="file" name="photo" />
+    <input type="submit"  value="上传"/>
+</form>
+</body>
+
+</html>
